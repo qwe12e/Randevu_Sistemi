@@ -13,3 +13,4 @@ class Doktor(Kullanici):
 class Hasta(Kullanici):
     def __init__(self, ad, soyad, id, password):
         super(Hasta, self).__init__(ad, soyad, id, password)
+        print("asdasd")
